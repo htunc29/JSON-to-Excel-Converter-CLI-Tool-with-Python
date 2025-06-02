@@ -200,10 +200,8 @@ json-excel-donusturucu/
 - **Docstring'ler** tüm genel fonksiyonlar ve sınıflar için
 - **Birim testleri** tüm yeni özellikler için
 
-## Lisans ve Destek
 
-### Lisans
-Bu proje MIT Lisansı altında lisanslanmıştır - detaylar için [LICENSE](LICENSE) dosyasına bakın.
+
 
 ### Destek Kanalları
 - **GitHub Issues**: Hata raporları ve özellik istekleri
@@ -215,4 +213,4 @@ Bu proje MIT Lisansı altında lisanslanmıştır - detaylar için [LICENSE](LIC
 
 ---
 
-**Veri işleme topluluğu için ❤️ ile geliştirildi**
+
