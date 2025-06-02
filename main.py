@@ -12,7 +12,7 @@ def json_to_excel(json_path, output_path='output/converted.xlsx'):
         with open(json_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
         
-        # Eğer data list of dict değilse, listeye çevir
+      
         if not isinstance(data, list):
             data = [data]
         
