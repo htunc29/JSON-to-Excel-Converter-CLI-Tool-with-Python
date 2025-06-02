@@ -20,17 +20,17 @@ def json_to_excel(json_path, output_path='output/converted.xlsx'):
         os.makedirs(os.path.dirname(output_path), exist_ok=True)
         df.to_excel(output_path, index=False)
         abs_path = os.path.abspath(output_path)
-        print(f"✅ Excel dosyası başarıyla oluşturuldu!\nDosya yolu: {abs_path}")
+        print(f"✅ Harika Excel dosyası başarıyla oluşturuldu!\n 📁 Dosya yolu: {abs_path}")
     except FileNotFoundError:
-        print(f"❌ JSON dosyası bulunamadı: {json_path}")
+        print(f"❌😢 JSON dosyası bulunamadı: {json_path}")
     except json.JSONDecodeError:
-        print(f"❌ JSON dosyası okunurken hata oluştu. Lütfen dosyanın geçerli bir JSON olduğundan emin olun.")
+        print(f"❌😢 JSON dosyasını okurken hata oluştu. Lütfen dosyanın geçerli bir JSON olduğundan emin olun.")
     except Exception as e:
-        print(f"❌ Beklenmeyen bir hata oluştu: {e}")
+        print(f"❌🤷 Beklenmeyen bir hata oluştu: {e}")
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("⚠️ Kullanım: python main.py <json_dosyasi_yolu>")
+        print("⚠️ Dikkat Kullanım Bu şekilde: python main.py <json_dosyasi_yolu>")
     else:
         json_path = sys.argv[1]
         json_to_excel(json_path)
