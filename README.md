@@ -173,14 +173,10 @@ C: JSON syntax'ını jsonlint.com veya benzer araçlarla doğrulayın
 ### Proje Yapısı
 ```
 json-excel-donusturucu/
-├── src/
-│   ├── donusturucu.py    # Temel dönüştürme mantığı
-│   ├── dogrulayici.py    # Giriş doğrulaması
-│   └── yardimcilar.py    # Yardımcı fonksiyonlar
-├── testler/
+├── input/
 │   ├── test_donusturucu.py
 │   └── test_verisi/
-├── dokumantasyon/
+├── output/
 │   └── API.md
 ├── main.py               # CLI giriş noktası
 ├── requirements.txt
