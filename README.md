@@ -203,9 +203,9 @@ json-excel-donusturucu/
 - **GitHub Issues**: Hata raporları ve özellik istekleri
 
 ### Sürümleme
-- **Mevcut Sürüm**: 2.1.0
+- **Mevcut Sürüm**: 1.3.0
 - **Uyumluluk**: Python 3.7+
-- **Son Güncelleme**: Aralık 2024
+- **Son Güncelleme**: Mayıs 2025
 
 ---
 
